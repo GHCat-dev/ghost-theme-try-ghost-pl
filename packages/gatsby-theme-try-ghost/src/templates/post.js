@@ -109,7 +109,7 @@ const Post = ({ data, location, pageContext }) => {
                                     <RenderContent htmlAst={htmlAst} html={transformedHtml || post.html} />
                                 </section>
 
-                                <Subscribe />
+                              {/*   <Subscribe /> */}
 
                                 <Comments id={post.id}/>
 

@@ -69,7 +69,7 @@ const SiteNav = ({ data, className, postTitle, overlay }) => {
                     </div>
                 )}
                 <DarkMode />
-                <SubscribeButton overlay={overlay} />
+               {/*  <SubscribeButton overlay={overlay} /> */}
             </div>
         </nav>
     )
